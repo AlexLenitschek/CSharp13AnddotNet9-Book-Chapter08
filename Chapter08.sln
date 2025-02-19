@@ -5,7 +5,9 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithNumbers", "WorkingWithNumbers\WorkingWithNumbers.csproj", "{BEBBE51E-2B6B-404B-BC61-4228173A1CC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithText", "WorkingWithText\WorkingWithText.csproj", "{F45F9559-7730-42C8-A290-1D49187591D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithText", "WorkingWithText\WorkingWithText.csproj", "{F45F9559-7730-42C8-A290-1D49187591D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRegularExpressions", "WorkingWithRegularExpressions\WorkingWithRegularExpressions.csproj", "{8C3FD2DE-BA7A-40B1-B7A7-4F08EA0F1483}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{F45F9559-7730-42C8-A290-1D49187591D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F45F9559-7730-42C8-A290-1D49187591D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F45F9559-7730-42C8-A290-1D49187591D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3FD2DE-BA7A-40B1-B7A7-4F08EA0F1483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3FD2DE-BA7A-40B1-B7A7-4F08EA0F1483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3FD2DE-BA7A-40B1-B7A7-4F08EA0F1483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3FD2DE-BA7A-40B1-B7A7-4F08EA0F1483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {657850AE-A5E5-491D-B2C2-7024E3850812}
 	EndGlobalSection
 EndGlobal
