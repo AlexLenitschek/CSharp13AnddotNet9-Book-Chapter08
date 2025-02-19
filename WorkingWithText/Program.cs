@@ -122,3 +122,19 @@ WriteLine("Compare (InvariantCultureIgnoreCase): {0}.",
   StringComparison.InvariantCultureIgnoreCase));
 
 #endregion
+
+#region Joining, formatting and other string members
+string recombined = string.Join(" => ", citiesArray);
+WriteLine(recombined);
+
+string fruit = "Apples";
+decimal price = 0.39M;
+DateTime when = DateTime.Today;
+
+WriteLine($"Interpolated: {fruit} cost {price:C} on {when:dddd}.");
+WriteLine(string.Format("string.Format: {0} cost {1:C} on {2:dddd}.", fruit, price, when));
+
+WriteLine();
+#endregion
+
+
