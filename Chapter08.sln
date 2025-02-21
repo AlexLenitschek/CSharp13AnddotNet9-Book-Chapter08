@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithRegularExpressio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithCollections", "WorkingWithCollections\WorkingWithCollections.csproj", "{00463AF1-3D66-43BF-B9A4-0DE1F6208AF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRanges", "WorkingWithRanges\WorkingWithRanges.csproj", "{F3577976-3F02-4D69-A640-9490E4C8F59B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithRanges", "WorkingWithRanges\WorkingWithRanges.csproj", "{F3577976-3F02-4D69-A640-9490E4C8F59B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_RegularExpressions", "Exercise_RegularExpressions\Exercise_RegularExpressions.csproj", "{ABAED69D-B290-4C33-9387-8EB5E152F7F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_RegularExpressions", "Exercise_RegularExpressions\Exercise_RegularExpressions.csproj", "{ABAED69D-B290-4C33-9387-8EB5E152F7F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_NumbersAsWordsLib", "Exercise_NumbersAsWordsLib\Exercise_NumbersAsWordsLib.csproj", "{73C5368C-B1EF-4300-A7EB-76F2F611B221}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{ABAED69D-B290-4C33-9387-8EB5E152F7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABAED69D-B290-4C33-9387-8EB5E152F7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABAED69D-B290-4C33-9387-8EB5E152F7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C5368C-B1EF-4300-A7EB-76F2F611B221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C5368C-B1EF-4300-A7EB-76F2F611B221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C5368C-B1EF-4300-A7EB-76F2F611B221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C5368C-B1EF-4300-A7EB-76F2F611B221}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
